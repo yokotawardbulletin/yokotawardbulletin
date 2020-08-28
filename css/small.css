@@ -75,12 +75,12 @@ nav ul li a {
 }
 nav ul li a:hover {
   background-color: #b0eefc;
-  color: #000;
+  color: #003057;
 }
 nav ul li.active a {
   background-color: #b0eefc;
   color: #003057;
-  text-shadow: -5px 0px 5px #000, 0px 5px 5px #000, 5px 0px 5px #000, 0px -5px 5px #000;
+  /*text-shadow: -5px 0px 5px #000, 0px 5px 5px #000, 5px 0px 5px #000, 0px -5px 5px #000;*/
 }
 nav ul.hide {
   display: none;
