@@ -23,7 +23,7 @@ header {
   padding: .5rem 2%;
   background-color: #003057;
   display: grid;
-  grid-template-columns: 100px auto;
+  grid-template-columns: 100px auto 5rem;
 }
 header .slogan {
   display: none;
