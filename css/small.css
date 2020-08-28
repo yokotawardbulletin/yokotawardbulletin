@@ -25,9 +25,9 @@ header {
   display: grid;
   grid-template-columns: 100px auto 5rem;
 }
-header .slogan {
+/*header .slogan {
   display: none;
-}
+}*/
 header figure {
   margin: 0;
 }
