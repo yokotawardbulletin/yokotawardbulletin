@@ -196,7 +196,10 @@ main img {
 main ul {
   cursor: pointer;
 }
-
+main image .qrcode {
+  width: 300px;
+  margin-right: 2rem;
+}
 /*----------- Slideshow --------------*/
 #slideshow:after {
   content: "";
