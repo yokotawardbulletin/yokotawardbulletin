@@ -8,7 +8,7 @@
   header img {width: auto;}
   header h1 {font-size: 2rem;}
   header h2 {font-size: 1.5rem;}
-  header .slogan {display: block;}
+  header .slogan h1 {display: block;}
   header .slogan h2 {display: none;}
 /*----------- NAVIGATION --------------*/
   nav ul.hide {display: block;}
