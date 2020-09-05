@@ -37,10 +37,6 @@ main .row section:nth-child(3){
   width: 48%;
   float: left;
 }
-main .row section video {
-  max-width: 48%;
-  height: auto;
-}
 main .gallery figure {flex-basis: 46%;}
 /*main .relic ul.column2, main .journal ul.column2, main .gishvit ul.column2, main .journalplay ul.column2 {
   columns: 2;
