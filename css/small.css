@@ -196,9 +196,6 @@ main img {
 main ul {
   cursor: pointer;
 }
-main img .qrcode {
-  width: 300px;
-}
 main video {
   max-width: 100%;
   height: auto;
