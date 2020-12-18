@@ -291,6 +291,12 @@ main .active .click ul, main .dead .click ul, main .agent .click ul {
 }
 /*---END toggleClass sub-CSS---*/
 
+/*---Poll-Maker---*/
+#qp_main3297117 .qp_btna:hover input {
+  background-color: #b0eefc;
+  color: #003057;
+}
+
 /*----------- #GLASS --------------*/
 #glass {
   position: absolute;
