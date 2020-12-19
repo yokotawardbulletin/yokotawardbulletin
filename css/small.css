@@ -318,9 +318,6 @@ main .active .click ul, main .dead .click ul, main .agent .click ul {
 .flickity-page-dots {
   bottom: 0px;
 }
-.flickity-viewport {
-  height: auto;
-}
 
 /*----------- #GLASS --------------*/
 #glass {
