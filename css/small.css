@@ -294,7 +294,7 @@ main .active .click ul, main .dead .click ul, main .agent .click ul {
 /*---Carousel via Flickity---*/
 .carousel-cell {
   width: 90%; /* full width */
-  height: 200px; /* height of carousel */
+  height: 240px; /* height of carousel */
   margin-left: 2rem;
 }
 .carousel-cell.is-selected {
