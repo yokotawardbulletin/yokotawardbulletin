@@ -295,7 +295,7 @@ main .active .click ul, main .dead .click ul, main .agent .click ul {
 .carousel-cell {
   width: 90%; /* full width */
   height: 200px; /* height of carousel */
-  margin: 2rem;
+  margin-left: 2rem;
 }
 .carousel-cell.is-selected {
   background: #b0eefc;
