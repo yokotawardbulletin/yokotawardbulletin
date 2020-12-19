@@ -302,7 +302,7 @@ main .active .click ul, main .dead .click ul, main .agent .click ul {
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 100px;
+  min-height: 180px;
   height: auto;
   margin-right: 2rem;
 }
