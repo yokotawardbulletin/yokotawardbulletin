@@ -302,7 +302,8 @@ main .active .click ul, main .dead .click ul, main .agent .click ul {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  min-height: 100px;
+  height: auto;
   margin-right: 2rem;
 }
 /*.carousel-cell {
