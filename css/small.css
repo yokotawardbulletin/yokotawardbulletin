@@ -297,7 +297,7 @@ main .active .click ul, main .dead .click ul, main .agent .click ul {
   padding-bottom: 56.25%; /*16:9 Aspect Ratio*/
   height: 0;
 }
-.carousel-cell {
+.carousel-cell, .flickity-viewport, .flickity-slider {
   position: absolute;
   top: 0;
   left: 0;
@@ -311,9 +311,6 @@ main .active .click ul, main .dead .click ul, main .agent .click ul {
   height: 240px; /* height of carousel /
   margin-right: 2rem;
 }*/
-.carousel-cell.is-selected {
-  background: #b0eefc;
-}
 .flickity-enabled:focus .flickity-viewport {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
