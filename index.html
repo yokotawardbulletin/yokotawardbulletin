@@ -28,6 +28,7 @@
 
 <!-- STYLE SHEETS -->
 <link href="/css/normalize.css" rel="stylesheet">
+<link href="https://unpkg.com/flickity@2/dist/flickity.min.css" rel="stylesheet">
 <!-- phone-default -->
 <link href="/css/small.css" rel="stylesheet">
 <!-- enhance-tablet -->
@@ -41,6 +42,7 @@
 <script src="/js/jquery.min.js"></script>
 <script src="/js/hamburger.js"></script>
 <script src="/js/banner.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 <body>
 <!-- HEADER HERE -->
@@ -188,7 +190,23 @@
     <section>
       <h2>Missionary Corner</h2>
       <h3>Ward Mission Plan - By Small and Simple Invitations are Great Things Brought to Pass</h3>
-      <p>INSERT WARD MISSION PLAN CAROUSEL--></p>
+      <div class="main-carousel">
+        <div class="carousel-cell"><img src="/images/WMP01.jpeg" alt="Ward Mission Plan Slide 01" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP02.jpeg" alt="Ward Mission Plan Slide 02" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP03.jpeg" alt="Ward Mission Plan Slide 03" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP04.jpeg" alt="Ward Mission Plan Slide 04" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP05.jpeg" alt="Ward Mission Plan Slide 05" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP06.jpeg" alt="Ward Mission Plan Slide 06" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP07.jpeg" alt="Ward Mission Plan Slide 07" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP08.jpeg" alt="Ward Mission Plan Slide 08" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP09.jpeg" alt="Ward Mission Plan Slide 09" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP10.jpeg" alt="Ward Mission Plan Slide 10" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP11.jpeg" alt="Ward Mission Plan Slide 11" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP12.jpeg" alt="Ward Mission Plan Slide 12" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP13.jpeg" alt="Ward Mission Plan Slide 13" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP14.jpeg" alt="Ward Mission Plan Slide 14" sizes="100vw"></div>
+        <div class="carousel-cell"><img src="/images/WMP15.jpeg" alt="Ward Mission Plan Slide 15" sizes="100vw"></div>
+      </div>
       <!--INSERT Poll Code Here-->
       <div id="qp_all3297117" style="width:100%;max-width:600px;">
         <STYLE>BODY {border-color:rgb(0,0,0);color:rgb(0,0,0)} #main {background:transparent;}#qp_main3297117 .qp_btna:hover input {background:rgb(0,53,95)!important;border-color:rgb(0,0,0)!important;color:rgb(0,0,0)!important} #qp_main3297117[results='0'] .qp_a[sel='1'] {border-color:rgb(0,0,0);color:rgb(0,0,0)!important}#qp_all3297117 {max-width:815px; margin:0 auto;}</STYLE>
@@ -332,5 +350,12 @@
 </footer>
 
 <!-- SCRIPT HERE -->
+<script>
+  $('.main-carousel').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true
+  });
+</script>
 </body>
 </html>
