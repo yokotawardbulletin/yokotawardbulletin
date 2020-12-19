@@ -292,7 +292,7 @@ main .active .click ul, main .dead .click ul, main .agent .click ul {
 /*---END toggleClass sub-CSS---*/
 
 /*---Carousel via Flickity---*/
-.main-carousel {
+.main-carousel, .flickity-viewport {
   position: relative;
   padding-bottom: 56.25%; /*16:9 Aspect Ratio*/
   height: 0;
