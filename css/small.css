@@ -301,10 +301,10 @@ main .active .click ul, main .dead .click ul, main .agent .click ul {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 90%;
   min-height: 180px;
   height: auto;
-  margin-right: 2rem;
+  margin: 1rem;
 }
 /*.carousel-cell {
   width: 50%; /* full width /
