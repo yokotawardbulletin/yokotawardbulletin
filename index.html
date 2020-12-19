@@ -11,9 +11,6 @@
 <meta name="author" content="Harrison Merrill">
 <meta name="theme-color" content="#003057">
 
-<!--PRELOAD CONTENT AREA-->
-<link rel="preload" href="/images/WMP01.jpeg">
-
 <title>Yokota Ward Bulletin: 20 December 2020</title>
 <link href="/images/logofav.jpg" rel="icon">
 <link href="/images/logo_apple120x.jpg" rel="apple-touch-icon">
@@ -193,7 +190,7 @@
     <section>
       <h2>Missionary Corner</h2>
       <h3>Ward Mission Plan - By Small and Simple Invitations are Great Things Brought to Pass</h3>
-      <div class="main-carousel">
+      <div class="main-carousel" id="carousel-1">
         <div class="carousel-cell"><img src="/images/WMP01.jpeg" alt="Ward Mission Plan Slide 01" sizes="100vw"></div>
         <div class="carousel-cell"><img src="/images/WMP02.jpeg" alt="Ward Mission Plan Slide 02" sizes="100vw"></div>
         <div class="carousel-cell"><img src="/images/WMP03.jpeg" alt="Ward Mission Plan Slide 03" sizes="100vw"></div>
@@ -361,6 +358,12 @@
     contain: true,
     fade: true
   });
+</script>
+<script>
+  window.onload = carouselRefresh;
+  function carouselRefresh (){
+    $('#carousel-1').load("index.html");
+  }
 </script>
 </body>
 </html>
