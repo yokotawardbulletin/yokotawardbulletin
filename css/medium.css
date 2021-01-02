@@ -29,12 +29,12 @@ table, tr, td {
   text-align: center;*/
 }
 table th {background: #ffd700}
-main .row section:nth-child(n+3){
+main .row section{
   width: 48%;
   float: left;
 }
 main .row section:nth-child(2n+0){
-  width: 50%;
+  width: 48%;
   float: left;
 }
 main .gallery figure {flex-basis: 46%;}
