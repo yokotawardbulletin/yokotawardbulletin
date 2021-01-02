@@ -36,7 +36,7 @@ main .row section{
 }
 main .row section:nth-child(2n+0){
   width: 48%;
-  float: left;
+  float: right;
   margin: 1%;
 }
 main .gallery figure {flex-basis: 46%;}
