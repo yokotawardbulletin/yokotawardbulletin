@@ -353,12 +353,8 @@
   });
 </script>
 <script auto-refresh>
-  var today = new Date();
-  var dw = today.getDay() + 1;
-  var mm = today.getMonth() + 1;
-  var r = "?" + mm + "." + dw;
-  if(window.location.href.substr(-2) !== r) {
-     window.location = window.location.href + r;
+  if(window.location.href.substr(-2) !== "?r") {
+     window.location = window.location.href + "?r";
    }
 </script>
 </body>
