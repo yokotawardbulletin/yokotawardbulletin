@@ -162,6 +162,13 @@ main .row figure figcaption {
   padding: 1%;
   text-align: center;
 }
+main .row section p .new{
+  background-color: #003057;
+  color: #b0eefc;
+}
+main .row section p .new a{
+  color: #ff0000;
+}
 main .gallery {
   display: flex;
   flex-wrap: wrap;
