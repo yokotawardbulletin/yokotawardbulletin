@@ -162,6 +162,10 @@ main .row figure figcaption {
   padding: 1%;
   text-align: center;
 }
+main .bullets section .new b{
+  background-color: #003057;
+  color: #b0eefc;
+}
 main .row section .new b{
   background-color: #003057;
   color: #b0eefc;
