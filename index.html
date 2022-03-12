@@ -44,73 +44,6 @@
 <script src="/js/banner.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script src="//scripts.poll-maker.com/3012/scpolls.js" language="javascript"></script>
-<!-- SNOW JS -->
-<script>
-  document.addEventListener('DOMContentLoaded', function(){
-    var script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
-    script.onload = function(){
-        particlesJS("snow", {
-            "particles": {
-                "number": {
-                    "value": 200,
-                    "density": {
-                        "enable": true,
-                        "value_area": 800
-                    }
-                },
-                "color": {
-                    "value": "#ffffff"
-                },
-                "opacity": {
-                    "value": 0.7,
-                    "random": false,
-                    "anim": {
-                        "enable": false
-                    }
-                },
-                "size": {
-                    "value": 5,
-                    "random": true,
-                    "anim": {
-                        "enable": false
-                    }
-                },
-                "line_linked": {
-                    "enable": false
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 5,
-                    "direction": "bottom",
-                    "random": true,
-                    "straight": false,
-                    "out_mode": "out",
-                    "bounce": false,
-                    "attract": {
-                        "enable": true,
-                        "rotateX": 300,
-                        "rotateY": 1200
-                    }
-                }
-            },
-            "interactivity": {
-                "events": {
-                    "onhover": {
-                        "enable": false
-                    },
-                    "onclick": {
-                        "enable": false
-                    },
-                    "resize": false
-                }
-            },
-            "retina_detect": true
-        });
-    }
-    document.head.append(script);
-});
-</script>
 </head>
 <body>
 <!-- HEADER HERE -->
@@ -139,6 +72,9 @@
       <li><a href="/archived.html">Archived Programs</a></li>
     </ul>
   </nav>
+
+<!-- Cherry Blossoms-->
+<div id="blossom_container"></div>
 
 <!-- CONTENT HERE -->
 <main class="clearfix">
@@ -305,6 +241,7 @@
 </footer>
 
 <!-- SCRIPT HERE -->
+<script src="js/background.js">backgroundSakura()</script>
 <!-- <script auto-refresh>
   if(window.location.href.substr(-2) !== "?r") {
      window.location = window.location.href + "?r";
