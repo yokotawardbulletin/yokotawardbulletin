@@ -212,7 +212,7 @@ main video {
   height: auto;
 }
 /*----------- Christmas Background ----------*/
-/*main {
+main {
   background-color: #b0eefc;
 }
 #snow {
@@ -223,7 +223,7 @@ main video {
     bottom: 0;
     pointer-events: none;
     z-index: 1000;
-}*/
+}
 /* ---------- Cherry Blossom Background -------- */
 html{
   min-height:100%;/* make sure it is at least as tall as the viewport */
@@ -239,7 +239,8 @@ body{
   height: 100%;
   z-index: -1; /*sets as background to text*/
 }
-.petal {
+/* The Below Portion can be commented out whe not in use */
+/* .petal {
   background: url(http://talktofill.surge.sh/cherry-blossom.png) no-repeat;
 }
 .petal.petal-style1 {
@@ -261,7 +262,7 @@ body{
   width: 26px;
   height: 34px;
   background-position: -49px -35px;
-}
+} */ */
 
 /*----------- VideoWraper ------------*/
 .videoWrapper {
